@@ -1,0 +1,44 @@
+.image-style{
+    width:50%;
+    height: 100vh;
+    position: relative;         
+}
+.intro-image{
+    width: 200%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.image-style::after{
+    content: '';
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.8;
+}
+.homeStyles{
+    height: 100%;
+    width: 100%;
+}
+.Contents{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.Contents.btn{
+   margin: 10px 5px;
+   padding:20px
+}
+.Contents.btn{
+    margin:10px 5px;
+    padding:20px;
+    border-radius: 20px;
+}
+.Contents h1{
+    font-size: 40px;
+    padding:10px;
+}
